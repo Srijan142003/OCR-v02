@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # Configure Gemini API using environment variable
-API_KEY = "AIzaSyAIFTRTgBbeg7vThtYzn-R_-T0JhXMNWtY"
+API_KEY = "API KEY"
 genai.configure(api_key=API_KEY)
 
 # Function to extract Prescription ID
